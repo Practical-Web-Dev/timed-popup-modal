@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 2000px;
+
+}
+
+.dark-bg {
+  background: linear-gradient(rgba(20, 20, 20, 0.9), rgba(20, 20, 20, 0.9));
+}
+
+h1 {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+p {
+  width: 70%;
+  margin: 1rem auto;
+}
+
+.shoe-img {
+  display: block;
+  width: 300px;
+  margin: 2rem auto;
+}
+
+#popup-modal {
+  text-align: center;
+  border: 2px solid black;
+  width: 400px;
+  padding: 2rem 0rem;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  z-index: 2;
+}
+
+#close-popup-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+h2 {
+  padding-bottom: 10px;
+}
+
+.modal-p {
+  margin: 5px auto;
+}
+
+#email-input {
+  height: 30px;
+  width: 225px;
+  margin-top: 10px;
+  padding-left: 5px;
+}
+
+#submit-btn {
+  display: block;
+  margin: 1rem auto;
+}
+
+.success-msg {
+  color: green;
+}
+
+.display-none {
+  display: none;
+}
